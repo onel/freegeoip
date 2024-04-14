@@ -20,7 +20,7 @@ Example response:
 
 ```json
 {
-	"city":"bucharest",
+    "city":"bucharest",
     "countryCode":"RO",
     "ipAddress":"xx.xxx.xxx.xx",
     "latitude":"44.426767",

@@ -1,6 +1,6 @@
 # FREE GEOIP SERVICE
 
-Get free geoip data for requests for client requests.
+Get free geoip data for client requests.
 
 This works thanks to some special headers added by Google App engine to each request that it serves.
 
@@ -8,11 +8,11 @@ For this reason, this **can only be deployed on App engine**.
 
 App engine only returns some basic info like: **latitude, longitude, city, country** but if this is enough then you can get all this for free.
 
+**Note:** This only works for requests that come directly from the client's device (no way to request for a specific IP).
+
 ## About
 
 This is a simple Flask app that reads the special headers that Google App engine adds to each request and returns them as JSON.
-
-**Note:** This only works for requests that come directly from the client's device (no way to request for a specific IP).
 
 App engine has a decent free tier so this service can be run for free.
 
